@@ -4,9 +4,7 @@
 
 An unresponsive (1A) yo-yo trick guide and trainer for Urbit.
 
-```
-|install ~nosfyl %throw
-```
+Install it from source (below).
 
 ## What's in it
 
