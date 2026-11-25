@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101014">
+  <title>Throw</title>
+  <link rel="icon" type="image/png" href="/apps/throw/icon">
+  <link rel="manifest" href="/apps/throw/manifest" crossorigin="use-credentials">
+  <link rel="apple-touch-icon" href="/apps/throw/icon-512">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Throw">
+  <link rel="stylesheet" href="/apps/throw/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/apps/throw"><img src="/apps/throw/icon" alt="" width="28" height="28">THROW</a>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="path" class="on">Path</button>
+      <button role="tab" data-tab="train">Train</button>
+      <button role="tab" data-tab="ladder">Ladder</button>
+      <button role="tab" data-tab="guide">Guide</button>
+      <button role="tab" data-tab="log">Log</button>
+    </nav>
+  </header>
+
+  <main>
+    <section data-pane="path" id="path"></section>
+    <section data-pane="train" id="train" hidden></section>
+    <section data-pane="ladder" id="ladder" hidden></section>
+    <section data-pane="guide" id="guide" hidden></section>
+    <section data-pane="log" id="log" hidden></section>
+  </main>
+
+  <div id="sheet" class="sheet" hidden></div>
+  <script src="/apps/throw/data.js"></script>
+  <script src="/apps/throw/app.js"></script>
+</body>
+</html>

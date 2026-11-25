@@ -1,0 +1,10 @@
+:~  title+'Throw'
+    info+'An unresponsive yo-yo trick guide and trainer: a 1A trick path with steps, tips and fixes, rep drills, the Sport Ladder and string care.'
+    color+0x10.1014
+    image+'https://raw.githubusercontent.com/itsTylerIRL/throw/main/desk/web/icon.png'
+    version+[1 0 0]
+    website+'https://github.com/itsTylerIRL/throw'
+    license+'MIT'
+    base+'throw'
+    site+/apps/throw
+==

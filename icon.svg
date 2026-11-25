@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#22222b"/><stop offset="1" stop-color="#0c0c10"/></radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb27d"/><stop offset=".55" stop-color="#ff8a3d"/><stop offset="1" stop-color="#c4541a"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- spin arcs -->
+  <g fill="none" stroke="#ff8a3d" stroke-linecap="round" opacity=".55">
+    <path d="M150 362 A150 150 0 0 1 176 196" stroke-width="10"/>
+    <path d="M362 210 A150 150 0 0 1 336 376" stroke-width="10"/>
+  </g>
+  <g fill="none" stroke="#ff8a3d" stroke-linecap="round" opacity=".25">
+    <path d="M118 380 A185 185 0 0 1 150 168" stroke-width="7"/>
+    <path d="M394 192 A185 185 0 0 1 362 404" stroke-width="7"/>
+  </g>
+  <!-- string -->
+  <path d="M256 40 C 252 120, 262 180, 256 288" stroke="#ececf1" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- yoyo -->
+  <circle cx="256" cy="288" r="104" fill="url(#rim)"/>
+  <circle cx="256" cy="288" r="72" fill="#101014"/>
+  <circle cx="256" cy="288" r="58" fill="none" stroke="#ff8a3d" stroke-width="5" opacity=".7"/>
+  <circle cx="256" cy="288" r="20" fill="#ececf1"/>
+  <circle cx="256" cy="288" r="7" fill="#101014"/>
+</svg>
